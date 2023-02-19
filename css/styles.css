@@ -1339,13 +1339,6 @@ color: var(--accent-color);
   background-color: var(--accent-filter-color);
 }
 
-.modal-form-check:focus
-  + .modal-form-check-desc
-  > .modal-form-fake-chekbox
-  > .modal-form-checkbox-icon {
-  opacity: 1;
-  background-color: var(--accent-filter-color);
-}
 
 .visually-hidden {
   position: absolute;
@@ -1707,13 +1700,13 @@ font-size: 20px;
 }
 
 .modal {
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   width: 392px;
   height: 586px;
   padding-left: 16px;
   padding-right: 16px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .modal-form-text {
